@@ -13,7 +13,7 @@ public class SeleniumTests {
 		System.setProperty("webdriver.gecko.driver", "/home/jose/Downloads/Selenium/geckodriver-v0.21.0-linux64/geckodriver");
 		WebDriver driver2 = new FirefoxDriver();
 		System.out.println("initialized driver");
-		driver2.get("https://www.facebook.com");
+		driver2.get("https://email.accenture.com");
 
 	}
 }
